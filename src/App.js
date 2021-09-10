@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import logo from './logo.svg';
 import './App.css';
 
@@ -20,6 +21,19 @@ function App() {
       </header>
     </div>
   );
+=======
+import Home from './pages/homepage'
+import React from 'react';
+//import ReactDOM from 'react-dom';
+
+function content() {
+  return(
+
+    <Home />
+
+  );
+  
+>>>>>>> Stashed changes
 }
 
-export default App;
+export default content;
