@@ -1,11 +1,11 @@
-import Home from './pages/homepage'
+import Product from './pages/product'
 import React from 'react';
 //import ReactDOM from 'react-dom';
 
 function content() {
   return(
 
-    <Home />
+    <Product />
 
   );
 }

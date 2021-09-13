@@ -1,0 +1,125 @@
+.product-img{
+	box-shadow: 2px 4px 8px 4px rgba(0, 0, 0, 0.2);
+	width: 90%;
+	text-align: center;
+	font-family: arial;
+	margin: 2% 5% 5% 5%;
+  }
+
+  .wishlist-icon{
+    color:hotpink;
+    margin: 1% 0% 0% 95%;
+  }
+
+  .card{
+    margin: 2% 0% 2% 4%;
+    width: 80%;
+  }
+
+  .buy-now{
+   margin:1% 4% 4% 14%;
+   border:none;
+	 outline: 0;
+	 padding: 12px;
+	 color: white;
+	 background-color:#270fc5;
+	 text-align: center;
+	 cursor: pointer;
+	 width: 60%;
+	 font-size: 18px;
+	 border-radius:2%;
+
+  }
+
+  .buy-now:hover {
+	  opacity: 0.7;
+    background-color:#94091c;
+  }
+
+  .about-product{
+      margin: 5% 6% 5% 1%;
+  }
+
+  .price{
+      font-size:30px;
+      color: #94091c;
+  }
+
+  .checked{
+    color:rgb(116, 22, 19);
+  }
+
+  .product-rating{
+      color:rgb(236, 65, 22);
+  }
+
+  .pricing-column{
+
+    width: 100px;
+    height: 630px;
+    overflow: auto;
+    text-align:justify;
+    overflow: auto;
+    border: 0.5px solid rgb(160, 158, 158);
+  }
+
+
+/* Similar-products */
+
+.carousel-inner{
+    text-align: center;
+}
+
+
+.child {
+  display: inline-block;
+  margin: 10px 0 0 10px;
+  flex-grow: 1;
+} 
+
+.similar-product{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 300px;
+	text-align: center;
+	font-family: arial;
+	margin: 0% 1% 6% 1%;
+  opacity: 1.0;
+}
+
+.similar-product:hover{
+  opacity: 1.0;
+  background-color: #e6f2ff;
+}
+
+.similar-product-price{
+  color: grey;
+	font-size: 22px;
+}
+
+.similar-product button {
+	border:none;
+	outline: 0;
+	padding: 12px;
+	color: white;
+	background-color:#381DDC;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+	border-radius:10%;
+  }
+
+  .similar-product button:hover{
+    opacity: 0.7;
+    background-color:#94091c;
+  }
+
+  .testimonial-img{
+    width: 50%;
+    height:150px;
+  }
+
+  .similar-product-head{
+    margin-left: 2%;
+    background-color: #ffffe6;
+  }
