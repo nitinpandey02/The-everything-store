@@ -1,4 +1,6 @@
 import React from "react";
+import ReactDOM from "react-dom";
+import './product.css';
 
 class product extends React.Component {
     render() {
@@ -13,7 +15,7 @@ class product extends React.Component {
                     <div class="col-lg-6 col-md-2">
                         <div class="card">
                             <i class="wishlist-icon fa fa-heart-o" style={{'font-size':'24px'}}></i>
-                            <img class="product-img" src="mobile1.png" alt="" />
+                            <img class="product-img" src="imgs/mobile1.png" alt="" />
                         </div>
                         <p><button class="buy-now"><b>Buy Now</b></button><button class="buy-now"><b>Add to cart</b></button></p>
                     </div>
@@ -75,7 +77,7 @@ class product extends React.Component {
                         <div class="parent">
                             <div class=" child">
                                 <div class="similar-product">
-                                    <img class="testimonial-img" src="mobile1.png" alt="" />
+                                    <img class="testimonial-img" src="imgs/mobile1.png" alt="" />
                                     <h4>REDMI 9 Prime</h4>
                                     <h6>(Sunrise Flare, 64 GB)  (4 GB RAM)</h6>
                                     <p class="similar-product-price">Rs.11,999/-</p>
@@ -85,7 +87,7 @@ class product extends React.Component {
 
                             <div class=" child">
                                 <div class="similar-product">
-                                    <img class="testimonial-img" src="mobile2.png" alt="" />
+                                    <img class="testimonial-img" src="imgs/mobile2.png" alt="" />
                                     <h4>POCO C3</h4>
                                     <h6>(Arctic Blue, 64 GB)  (4 GB RAM)</h6>
                                     <p class="similar-product-price">Rs.8,999/-</p>
@@ -95,7 +97,7 @@ class product extends React.Component {
 
                             <div class="child">
                                 <div class="similar-product">
-                                    <img class="testimonial-img" src="mobile3.png" alt="" />
+                                    <img class="testimonial-img" src="imgs/mobile3.png" alt="" />
                                     <h4>Realmi-Narzo</h4>
                                     <h6>5G (Sword Black, 64 GB)  (6 GB RAM)</h6>
                                     <p class="similar-product-price">Rs.13,499/-</p>
@@ -105,7 +107,7 @@ class product extends React.Component {
 
                             <div class="child">
                                 <div class="similar-product">
-                                    <img class="testimonial-img" src="mobile4.jpg" alt="" />
+                                    <img class="testimonial-img" src="imgs/mobile4.jpg" alt="" />
                                     <h4>Redmi-9A</h4>
                                     <h6>(Midnight Black, 32 GB)  (2 GB RAM)</h6>
                                     <p class="similar-product-price">Rs.7899/-</p>
@@ -115,7 +117,7 @@ class product extends React.Component {
 
                             <div class="child">
                                 <div class="similar-product">
-                                    <img class="testimonial-img" src="mobile3.png" alt="" />
+                                    <img class="testimonial-img" src="imgs/mobile3.png" alt="" />
                                     <h4>Realmi-Narzo</h4>
                                     <h6>5G (Sword Black, 64 GB)  (6 GB RAM)</h6>
                                     <p class="similar-product-price">Rs.13,499/-</p>
@@ -148,7 +150,7 @@ class product extends React.Component {
                         <div class="parent">
                             <div class=" child">
                                 <div class="similar-product">
-                                    <img class="testimonial-img" src="mobile1.png" alt="" />
+                                    <img class="testimonial-img" src="imgs/mobile1.png" alt="" />
                                     <h4>REDMI 9 Prime</h4>
                                     <h6>(Sunrise Flare, 64 GB)  (4 GB RAM)</h6>
                                     <p class="similar-product-price">Rs.11,999/-</p>
@@ -158,7 +160,7 @@ class product extends React.Component {
 
                             <div class=" child">
                                 <div class="similar-product">
-                                    <img class="testimonial-img" src="mobile2.png" alt="" />
+                                    <img class="testimonial-img" src="imgs/mobile2.png" alt="" />
                                     <h4>POCO C3</h4>
                                     <h6>(Arctic Blue, 64 GB)  (4 GB RAM)</h6>
                                     <p class="similar-product-price">Rs.8,999/-</p>
@@ -168,7 +170,7 @@ class product extends React.Component {
 
                             <div class="child">
                                 <div class="similar-product">
-                                    <img class="testimonial-img" src="mobile3.png" alt="" />
+                                    <img class="testimonial-img" src="imgs/mobile3.png" alt="" />
                                     <h4>Realmi-Narzo</h4>
                                     <h6>5G (Sword Black, 64 GB)  (6 GB RAM)</h6>
                                     <p class="similar-product-price">Rs.13,499/-</p>
@@ -178,7 +180,7 @@ class product extends React.Component {
 
                             <div class="child">
                                 <div class="similar-product">
-                                    <img class="testimonial-img" src="mobile4.jpg" alt="" />
+                                    <img class="testimonial-img" src="imgs/mobile4.jpg" alt="" />
                                     <h4>Redmi-9A</h4>
                                     <h6>(Midnight Black, 32 GB)  (2 GB RAM)</h6>
                                     <p class="similar-product-price">Rs.7899/-</p>
@@ -188,7 +190,7 @@ class product extends React.Component {
 
                             <div class="child">
                                 <div class="similar-product">
-                                    <img class="testimonial-img" src="mobile3.png" alt="" />
+                                    <img class="testimonial-img" src="imgs/mobile3.png" alt="" />
                                     <h4>Realmi-Narzo</h4>
                                     <h6>5G (Sword Black, 64 GB)  (6 GB RAM)</h6>
                                     <p class="similar-product-price">Rs.13,499/-</p>

@@ -1,4 +1,4 @@
-import Product from './pages/product'
+import Product from './components/homepage'
 import React from 'react';
 //import ReactDOM from 'react-dom';
 
